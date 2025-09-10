@@ -3,6 +3,18 @@
  * Displays developer credits and ASCII art in browser console
  */
 
+// Extend Window interface for wafastarz object
+declare global {
+  interface Window {
+    wafastarz?: {
+      info: () => void;
+      links: () => void;
+      ascii: () => void;
+      heart: () => void;
+    };
+  }
+}
+
 export const consoleUtil = {
   // ASCII Art for Wafastarz
   asciiArt: `
@@ -63,7 +75,7 @@ export const consoleUtil = {
   // Interactive commands
   setupCommands() {
     // Create global wafastarz object
-    (window as Record<string, any>).wafastarz = {
+    window.wafastarz = {
       info: () => {
         console.log(`%c👨‍💻 Developer Information`, this.styles.title);
         console.log(`%cName: ${this.developerInfo.name}`, this.styles.info);
