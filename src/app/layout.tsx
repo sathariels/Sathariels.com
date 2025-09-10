@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import ConsoleProvider from "@/components/Console";
+import { Analytics } from "@vercel/analytics/next"
 
 // Initialize Gilroy font
 const gilroy = localFont({
@@ -63,6 +64,7 @@ export default function RootLayout({
       <body className={`${gilroy.variable} font-gilroy antialiased`}>
         <ConsoleProvider />
         {children}
+        <Analytics />
       </body>
     </html>
   );

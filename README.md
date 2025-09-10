@@ -9,19 +9,27 @@
 
 A modern, animated bento-style portfolio template built with cutting-edge web technologies. Perfect for developers and designers who want to showcase their work with style.
 
-[View Demo](https://bentofolio.vercel.app) · [Report Bug](https://github.com/mkhoirulwafa18/bentofolio/issues) · [Request Feature](https://github.com/mkhoirulwafa18/bentofolio/issues)
+[View Demo](https://lavanya-bentofolio.vercel.app) · [Report Bug](https://github.com/mkhoirulwafa18/bentofolio/issues) · [Request Feature](https://github.com/mkhoirulwafa18/bentofolio/issues)
 
 </div>
 
 ## ✨ Preview
 
 <p align="center">
-  <img src="docs/screenshots/hero-overview.png" alt="Bentofolio — homepage overview" />
+  <video src="docs/preview/lavanya-bento-preview.webm" autoplay loop muted playsinline alt="Bentofolio — homepage overview"></video>
+</p>
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="docs/preview/lavanya-bento-desktop.png" alt="Home Desktop" width="40%" />
+  <img src="docs/preview/lavanya-bento-desktop-contact.png" alt="Contact modal Desktop" width="40%" />
 </p>
 <p align="center">
-  <img src="docs/screenshots/hero.png" alt="Hero section" width="30%" />
-  <img src="docs/screenshots/projects.png" alt="Projects section" width="30%" />
-  <img src="docs/screenshots/contact-modal.png" alt="Contact modal" width="30%" />
+  <img src="docs/preview/lavanya-bento-tab.png" alt="Home Tab" width="28%" />
+  <img src="docs/preview/lavanya-bento-tab-contact.png" alt="Contact modal Tab" width="28%" />
+  <img src="docs/preview/lavanya-bento-mobile.png" alt="Home Mobile" width="18%" />
+  <img src="docs/preview/lavanya-bento-mobile-contact.png" alt="Contact modal Mobile" width="18%" />
 </p>
 
 ## 🚀 Features
