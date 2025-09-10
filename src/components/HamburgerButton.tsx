@@ -18,4 +18,6 @@ const HamburgerButton = React.memo(({ open, onClick }: Props) => (
   </button>
 ));
 
+HamburgerButton.displayName = 'HamburgerButton';
+
 export default HamburgerButton;

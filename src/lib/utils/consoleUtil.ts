@@ -63,7 +63,7 @@ export const consoleUtil = {
   // Interactive commands
   setupCommands() {
     // Create global wafastarz object
-    (window as any).wafastarz = {
+    (window as Record<string, any>).wafastarz = {
       info: () => {
         console.log(`%c👨‍💻 Developer Information`, this.styles.title);
         console.log(`%cName: ${this.developerInfo.name}`, this.styles.info);
@@ -105,7 +105,7 @@ export const consoleUtil = {
 
   // Detect when dev tools are opened
   detectDevTools() {
-    let devtools = { open: false };
+    const devtools = { open: false };
     
     setInterval(() => {
       if (window.outerHeight - window.innerHeight > 200 || 

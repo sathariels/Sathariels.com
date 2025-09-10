@@ -54,7 +54,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 Contact me
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Let's work together and create something amazing
+                Let&apos;s work together and create something amazing
               </p>
             </motion.div>
 

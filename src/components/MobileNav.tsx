@@ -50,4 +50,6 @@ const MobileNav = React.memo(({ open, closeMenu }: Props) => (
   </AnimatePresence>
 ));
 
+MobileNav.displayName = 'MobileNav';
+
 export default MobileNav;
