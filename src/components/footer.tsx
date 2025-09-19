@@ -9,13 +9,12 @@ export function Footer() {
         </p>
         
         <div className="flex items-center space-x-4">
-          <span className="text-xs text-gray-400 mr-2">share</span>
           <a 
             href="#" 
             className="text-gray-400 hover:text-gray-600 transition-colors"
-            aria-label="Share"
+            aria-label="GitHub"
           >
-            <Share2 size={16} />
+            <Github size={16} />
           </a>
           <a 
             href="#" 
