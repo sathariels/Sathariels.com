@@ -200,11 +200,11 @@ export function JourneyPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
-              <div className="text-2xl font-medium text-orange-400 mb-2">3+ Years</div>
+              <div className="text-2xl font-medium text-orange-400 mb-2">1+ Years</div>
               <div className="text-sm text-gray-600">Dedicated Learning</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-medium text-orange-400 mb-2">50+ Hours</div>
+              <div className="text-2xl font-medium text-orange-400 mb-2">20+ Hours</div>
               <div className="text-sm text-gray-600">Animation Created</div>
             </div>
             <div className="text-center">
