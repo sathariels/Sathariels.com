@@ -10,28 +10,28 @@ export function Footer() {
         
         <div className="flex items-center space-x-4">
           <a 
-            href="#" 
+            href="https://github.com/sathariels" 
             className="text-gray-400 hover:text-gray-600 transition-colors"
             aria-label="GitHub"
           >
             <Github size={16} />
           </a>
           <a 
-            href="#" 
+            href="https://medium.com/@Sathariels" 
             className="text-gray-400 hover:text-gray-600 transition-colors"
             aria-label="Medium"
           >
             <BookOpen size={16} />
           </a>
           <a 
-            href="#" 
+            href="https://x.com/Satharielsa" 
             className="text-gray-400 hover:text-gray-600 transition-colors"
             aria-label="Twitter"
           >
             <Twitter size={16} />
           </a>
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/nithilan-kumaran" 
             className="text-gray-400 hover:text-gray-600 transition-colors"
             aria-label="LinkedIn"
           >
