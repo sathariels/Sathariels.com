@@ -8,7 +8,7 @@ const journeyData = [
     description: "My very first animation attempt - a simple bouncing ball. Learning the basics of timing and spacing.",
     date: "Early 2020",
     complexity: "Beginner",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    videoUrl: Image1,
     thumbnail: Image1,
     side: "right"
   },
