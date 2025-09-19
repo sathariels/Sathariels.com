@@ -9,6 +9,7 @@ export function Footer() {
         </p>
         
         <div className="flex items-center space-x-4"
+          </a>
           <a 
             href="#" 
             className="text-gray-400 hover:text-gray-600 transition-colors"
