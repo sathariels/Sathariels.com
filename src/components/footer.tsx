@@ -8,13 +8,13 @@ export function Footer() {
           Copyright © All rights reserved.
         </p>
         
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4"
           <a 
             href="#" 
             className="text-gray-400 hover:text-gray-600 transition-colors"
-            aria-label="GitHub"
+            aria-label="Share"
           >
-            <Github size={16} />
+            <Share2 size={16} />
           </a>
           <a 
             href="#" 
