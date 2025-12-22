@@ -12,12 +12,12 @@ export default function Footer({ className = "" }: FooterProps) {
         <Heart size={12} className="text-red-500/30 hover:text-red-500 fill-current transition-colors duration-300" />
         <span>by</span>
         <a 
-          href="https://github.com/mkhoirulwafa18"
+          href="https://github.com/sathariels"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-foreground transition-colors duration-300 hover:underline"
         >
-          Wafastarz
+          Sathariels
         </a>
       </div>
     </footer>
