@@ -1,7 +1,7 @@
 export const contactInfo = {
-  email: "wafastarzteam@gmail.com",
-  phone: "+62 85731681486",
-  phoneRaw: "+6285731681486",
-  location: "Demak, Central Java",
-  availability: "Available for projects",
+  email: "nithilan.kumaran@gmail.com",
+  phone: "248-688-1834",
+  phoneRaw: "248-688-1834",
+  location: "Madison, Wisconsin",
+  availability: "Available for Work",
 };
