@@ -21,8 +21,8 @@ export default function HeroSection() {
         whileHover="hover"
       >
         <Image
-          src="/svgs/Vector2.svg"
-          alt="Lavanya Yasmeen"
+          src="/svgs/Vector3.svg"
+          alt="Nithilan Kumaran"
           width={150}
           height={150}
           className="w-12 lg:w-auto self-end"
