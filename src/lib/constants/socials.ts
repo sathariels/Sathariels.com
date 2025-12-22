@@ -1,6 +1,6 @@
 export const socials = {
-  github: "https://github.com/mkhoirulwafa18",
-  linkedin: "https://linkedin.com/in/mkhoirulwafa",
-  twitter: "https://x.com/masapaaaa",
-  instagram: "https://instagram.com/wafastarz",
+  github: "https://github.com/sathariels",
+  linkedin: "https://www.linkedin.com/in/nithilan-kumaran",
+  twitter: "https://x.com/sathariel",
+  instagram: "https://instagram.com/nithilan.3",
 };
