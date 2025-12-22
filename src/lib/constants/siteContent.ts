@@ -7,7 +7,7 @@ export const heroContent = {
 };
 
 export const aboutDescription =
-  "Lavanya Yasmeen is a pixel perfectionist graphic designer, renowned for transforming dreams into digital magic. Based in Indonesia, she crafts visually stunning designs that captivate audiences worldwide.";
+  "Hi, I'm Sathariels. I’m a software engineer and creative technologist dedicated to blending technical precision with immersive world-building. I specialize in bridging the gap between complex C++ engine architecture and player-centered 3D art to bring digital universes to life. Whether I'm building game engines from scratch or sharing dev tutorials with the community, I'm always looking for new ways to transform code into interactive magic.";
 
 export const personImage = {
   src: "/SatharielsPicture.jpg",
