@@ -1,13 +1,13 @@
 export const heroContent = {
   line1: "Pixel Perfectionist",
   line2Prefix: "Turning",
-  line2Emphasis: "Dreams",
+  line2Emphasis: "Dreams ",
   line2Suffix: "Into",
   line3: "Digital Magic",
 };
 
 export const aboutDescription =
-  "Hi, I'm Sathariels. I’m a software engineer and creative technologist blending C++ engine architecture with player-centered 3D art to bring digital universes to life. Whether I’m building game engines or sharing dev tutorials, I’m always transforming code into interactive magic.";
+  "Hi, I’m Sathariels. I design games and create 3D art focused on atmosphere, interaction, and player experience, turning ideas into immersive digital worlds through thoughtful mechanics and visual storytelling.";
 
 export const personImage = {
   src: "/SatharielsPicture.jpg",
