@@ -15,7 +15,7 @@ export default function Footer({ className = "" }: FooterProps) {
           rel="noopener noreferrer"
           className="hover:text-foreground transition-colors duration-300 hover:underline"
         >
-          Sathariels 2025
+        Sathariels 2025
         </a>
       </div>
     </footer>
