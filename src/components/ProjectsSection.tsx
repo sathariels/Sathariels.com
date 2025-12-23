@@ -81,14 +81,14 @@ export default function ProjectsSection() {
         animate="visible"
       >
         <motion.a 
-          href={socials.Medium} 
+          href={socials.instagram} 
           className="text-light hover:text-accent transition-colors"
           variants={socialVariants}
           initial="hidden"
           animate="visible"
           whileHover="hover"
         >
-          <Medium size={20} />
+          <Instagram size={20} />
         </motion.a>
         <motion.a 
           href={socials.twitter} 
