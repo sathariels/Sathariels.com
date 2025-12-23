@@ -1,4 +1,4 @@
-u"use client";
+"use client";
 
 import Image from "next/image";
 import { ArrowUpRight, Instagram, Twitter, Linkedin } from "lucide-react";
