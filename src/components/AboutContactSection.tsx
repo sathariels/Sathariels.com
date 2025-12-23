@@ -34,7 +34,7 @@ export default function AboutContactSection() {
           animate="visible"
         >
           <Image
-            src="/svgs/Vector6.svg"
+            src="/svgs/Vector61.svg"
             alt="Nithilan Kumaran"
             width={150}
             height={150}
