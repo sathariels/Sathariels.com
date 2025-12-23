@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lavanya Yasmeen | Personal Portfolio",
+    title: "Sathariels | Personal Portfolio",
     description: "A modern and minimalist portfolio showcasing my work, skills, and experiences in web development and design.",
   },
 };
