@@ -1,4 +1,4 @@
-"use client";
+u"use client";
 
 import Image from "next/image";
 import { ArrowUpRight, Instagram, Twitter, Linkedin } from "lucide-react";
@@ -81,14 +81,14 @@ export default function ProjectsSection() {
         animate="visible"
       >
         <motion.a 
-          href={socials.instagram} 
+          href={socials.Medium} 
           className="text-light hover:text-accent transition-colors"
           variants={socialVariants}
           initial="hidden"
           animate="visible"
           whileHover="hover"
         >
-          <Instagram size={20} />
+          <Medium size={20} />
         </motion.a>
         <motion.a 
           href={socials.twitter} 
