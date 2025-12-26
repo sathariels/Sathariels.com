@@ -5,4 +5,5 @@ export const projects: Project[] = [
   { name: "Shadow Slave Mask", imgSrc: "/projects/ShadowSlave.png" },
   { name: "Flower Mask", imgSrc: "/projects/FlowerMask.png" },
   { name: "Vacuum Core", imgSrc: "/projects/BlackHole.png" },
+  { name: "This Website", imgSrc: "/projects/WebsitePicture.jpg"},
 ];
