@@ -8,11 +8,11 @@ import { pageEnterVariants } from "@/lib/animation/variants";
 
 export default function ProjectsPage() {
     return (
-        <div className="flex flex-col min-h-screen font-sans pt-2 md:pt-0 lg:py-6 xl:py-0 xl:pb-6">
+        <div className="flex flex-col h-screen overflow-y-auto font-sans pt-2 md:pt-0 lg:py-6 xl:py-0 xl:pb-6">
             <Navbar />
 
             <motion.main
-                className="flex-1 flex flex-col pb-4 md:pb-6"
+                className="flex-1 flex flex-col pb-4 md:pb-6 px-4 lg:px-10"
                 variants={pageEnterVariants}
                 initial="hidden"
                 animate="visible"
@@ -38,7 +38,7 @@ export default function ProjectsPage() {
                 </div>
             </motion.main>
 
-            <Footer className="mb-4" />
+            <Footer className="mb-4" showSignature={false} />
         </div>
     );
 }

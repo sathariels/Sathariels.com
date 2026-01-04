@@ -2,22 +2,25 @@ import { Heart } from "lucide-react";
 
 interface FooterProps {
   className?: string;
+  showSignature?: boolean;
 }
 
-export default function Footer({ className = "" }: FooterProps) {
+export default function Footer({ className = "", showSignature = true }: FooterProps) {
   return (
     <footer className={`text-center py-4 ${className} absolute right-0 left-1/2 transform -translate-x-1/2 -bottom-12 md:-bottom-20 lg:-bottom-7`}>
-      <div className="flex items-center justify-center gap-2 text-xs text-foreground/15 hover:text-foreground transition-colors duration-300">
-        <span>Made by</span>
-        <a 
-          href="https://github.com/sathariels"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-foreground transition-colors duration-300 hover:underline"
-        >
-        Sathariels 2025
-        </a>
-      </div>
+      {showSignature && (
+        <div className="flex items-center justify-center gap-2 text-xs text-foreground/15 hover:text-foreground transition-colors duration-300">
+          <span>Made by</span>
+          <a
+            href="https://github.com/sathariels"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-foreground transition-colors duration-300 hover:underline"
+          >
+            Sathariels 2025
+          </a>
+        </div>
+      )}
     </footer>
   );
 }
