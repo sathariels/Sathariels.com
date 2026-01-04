@@ -8,7 +8,7 @@ import { pageEnterVariants } from "@/lib/animation/variants";
 
 export default function ProjectsPage() {
     return (
-        <div className="flex flex-col min-h-screen relative font-sans overflow-auto md:overflow-y-auto">
+        <div className="flex flex-col min-h-screen relative font-sans">
             <div className="flex flex-col min-h-screen pt-2 md:pt-0 lg:py-6 xl:py-0 xl:pb-6">
                 <Navbar />
 

@@ -37,8 +37,5 @@ body {
 }
 
 @media (min-width: 1024px) {
-  body {
-    max-height: 100svh;
-    overflow: hidden;
-  }
+  /* Removed global overflow: hidden to allow pages like /projects to scroll natively */
 }
