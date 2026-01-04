@@ -20,13 +20,13 @@ export const containerVariants: Variants = {
 
 // Card animations
 export const cardVariants: Variants = {
-  hidden: { 
-    opacity: 0, 
+  hidden: {
+    opacity: 0,
     y: 30,
     scale: 0.95
   },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
     scale: 1,
     transition: {
@@ -46,8 +46,8 @@ export const cardVariants: Variants = {
 // Hero section animations
 export const heroVariants: Variants = {
   hidden: { opacity: 0, x: -50 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     x: 0,
     transition: {
       duration: 0.8,
@@ -58,12 +58,12 @@ export const heroVariants: Variants = {
 
 // Image animations
 export const imageVariants: Variants = {
-  hidden: { 
-    opacity: 0, 
+  hidden: {
+    opacity: 0,
     scale: 1.1
   },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     scale: 1,
     transition: {
       duration: 0.8,
@@ -75,8 +75,8 @@ export const imageVariants: Variants = {
 // Text animations
 export const textVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
     transition: {
       duration: 0.6,
@@ -88,8 +88,8 @@ export const textVariants: Variants = {
 // Icon animations
 export const iconVariants: Variants = {
   hidden: { opacity: 0, rotate: -180 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     rotate: 0,
     transition: {
       duration: 0.5,
@@ -117,8 +117,8 @@ export const projectsVariants: Variants = {
 
 export const projectItemVariants: Variants = {
   hidden: { opacity: 0, x: -20 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     x: 0,
     transition: {
       duration: 0.4,
@@ -136,8 +136,8 @@ export const projectItemVariants: Variants = {
 // Social media animations
 export const socialVariants: Variants = {
   hidden: { opacity: 0, scale: 0 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     scale: 1,
     transition: {
       duration: 0.4,
@@ -181,13 +181,13 @@ export const modalVariants: Variants = {
 
 // Contact card click animation
 export const contactCardVariants: Variants = {
-  hidden: { 
-    opacity: 0, 
+  hidden: {
+    opacity: 0,
     y: 30,
     scale: 0.95
   },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
     scale: 1,
     transition: {
@@ -226,6 +226,61 @@ export const backdropVariants: Variants = {
     opacity: 0,
     transition: {
       duration: 0.3
+    }
+  }
+};
+
+// Page enter animation
+export const pageEnterVariants: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 20
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.4, 0, 0.2, 1]
+    }
+  }
+};
+
+// Projects grid container animation
+export const gridContainerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.2
+    }
+  }
+};
+
+// Project card animation for grid
+export const projectCardVariants: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 40,
+    scale: 0.95
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.5,
+      ease: [0.4, 0, 0.2, 1]
+    }
+  },
+  hover: {
+    y: -8,
+    scale: 1.02,
+    boxShadow: "0 20px 40px rgba(139, 147, 255, 0.15)",
+    transition: {
+      duration: 0.3,
+      ease: [0.4, 0, 0.2, 1]
     }
   }
 };

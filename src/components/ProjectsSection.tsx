@@ -11,7 +11,7 @@ export default function ProjectsSection() {
   return (
     <div className="flex flex-col w-full lg:w-[30%] gap-4 md:justify-between lg:mb-6 overflow-x-hidden">
       {/* === CARD 3: Projects List === */}
-      <motion.div 
+      <motion.div
         className="bg-foreground text-background p-4 md:p-6 rounded-[20px] flex-grow md:flex-wrap flex flex-col min-h-[400px] md:min-h-0"
         variants={cardVariants}
         initial="hidden"
@@ -19,7 +19,7 @@ export default function ProjectsSection() {
         whileHover="hover"
       >
         <div className="flex justify-between items-center mb-4">
-          <motion.h2 
+          <motion.h2
             className="text-xl md:text-2xl font-medium"
             variants={textVariants}
             initial="hidden"
@@ -36,7 +36,7 @@ export default function ProjectsSection() {
             <ArrowUpRight className="text-brand-accent" size={24} />
           </motion.div>
         </div>
-        <motion.div 
+        <motion.div
           className="h-[200px] md:h-[50%] rounded-[20px] overflow-hidden mb-4"
           variants={cardVariants}
           initial="hidden"
@@ -51,15 +51,15 @@ export default function ProjectsSection() {
             className="w-full h-full object-cover"
           />
         </motion.div>
-        <motion.div 
+        <motion.div
           className="overflow-y-auto lg:flex-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
           variants={projectsVariants}
           initial="hidden"
           animate="visible"
         >
           {projects.slice(1).map((project) => (
-            <motion.div 
-              key={project.name}
+            <motion.div
+              key={project.id}
               variants={projectItemVariants}
               whileHover="hover"
             >
@@ -74,14 +74,14 @@ export default function ProjectsSection() {
           ))}
         </motion.div>
       </motion.div>
-      <motion.div 
+      <motion.div
         className="flex-none bg-card p-6 md:p-9 rounded-[20px] flex justify-evenly items-center"
         variants={cardVariants}
         initial="hidden"
         animate="visible"
       >
-        <motion.a 
-          href={socials.github} 
+        <motion.a
+          href={socials.github}
           className="text-light hover:text-accent transition-colors"
           variants={socialVariants}
           initial="hidden"
@@ -90,8 +90,8 @@ export default function ProjectsSection() {
         >
           <Github size={20} />
         </motion.a>
-        <motion.a 
-          href={socials.twitter} 
+        <motion.a
+          href={socials.twitter}
           className="text-light hover:text-accent transition-colors"
           variants={socialVariants}
           initial="hidden"
@@ -100,8 +100,8 @@ export default function ProjectsSection() {
         >
           <Twitter size={20} />
         </motion.a>
-        <motion.a 
-          href={socials.linkedin} 
+        <motion.a
+          href={socials.linkedin}
           className="text-light hover:text-accent transition-colors"
           variants={socialVariants}
           initial="hidden"
