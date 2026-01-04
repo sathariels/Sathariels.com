@@ -10,7 +10,7 @@ export const projects: Project[] = [
     id: "purple-tree",
     name: "Midjourney Artwork Exhibition",
     imgSrc: "/projects/PurpleTreeMidjourney.png",
-    description: "A surreal Midjourney-generated artwork featuring a mystical purple tree in an ethereal landscape."
+    description: "An exhibition of my Midjourney artwork, featuring high realism and anime-inspired art."
   },
   {
     id: "shadow-slave-mask",
